@@ -1,0 +1,18 @@
+<h1>Hours worked on {{project_name}}</h1>
+
+<ul class="list">
+
+% entries.each_with_index do |entry, index|
+  <li>
+    {{ index + 1 }}.
+    {{ entry.created_at.strftime('%b %e') }}.
+    {{ entry.description_text }}
+    ({{ entry.minutes }} minutes)
+  </li>
+% end
+
+</ul>
+
+<div class="total">
+  Total: {{ hours_total }} hours.
+</div>

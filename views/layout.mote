@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link
+    href="http://fonts.googleapis.com/css?family=Ubuntu+Mono|Mate|Parisienne|Patua+One"
+    rel="stylesheet"
+    type="text/css">
+  <link
+    href="/css/styles.css"
+    rel="stylesheet"
+    type="text/css">
+  <title>{{project_name}} Hours</title>
+</head>
+  <body>
+    <header>
+      <h1>{{project_name}} Hours</h1>
+      <?xml version="1.0" encoding="UTF-8"?>
+    </header>
+
+    <section>
+      {{content}}
+    </section>
+  </body>
+</html>
